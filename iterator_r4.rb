@@ -19,3 +19,13 @@ end
 iterator [1, 2, 3], :cube, :random
 
 
+def iterator arr
+  index = 0
+  while index < arr.length
+    yield(arr[index])
+    index += 1
+  end
+end
+
+# addition
+iterator [1,2,3] {|element| puts element + element }

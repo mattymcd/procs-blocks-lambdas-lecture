@@ -12,7 +12,7 @@ end
 
 tell "Ed Shadi", hello_proc
 
-# Proc return will return a method while lambda return will return it's block of code but conitnues the execution of the method.
+# Proc return will return a method while lambda return will return it's block of code but continues the execution of the method.
 
 def hello name
   first, last = name.split(' ')
